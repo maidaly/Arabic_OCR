@@ -36,7 +36,7 @@ def main():
         
         if start_btn:
             animation_placeholder = st.empty()
-            animation_placeholder.markdown(utlis.custum_html('animation_style.html'), unsafe_allow_html=True)
+            animation_placeholder.markdown(utlis.read_custum_html('animation_style.html'), unsafe_allow_html=True)
             t1 = time.time()
             result = get_result(image)
             animation_placeholder.empty()
