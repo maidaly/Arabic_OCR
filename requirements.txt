@@ -1,0 +1,4 @@
+easyocr
+opencv-python
+numpy
+streamlit
