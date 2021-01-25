@@ -1,5 +1,5 @@
 # Arabic_OCR
-This repo contains Arabic OCR App. The APP can be used to extract the Arabic text from the images. The is built based on the [EasyOCR](https://github.com/JaidedAI/EasyOCR) library. EsayOCR built  detection/recognition model to detect and recognize the characters and words. For detection part they used the pretrained model for [CRAFT](https://arxiv.org/abs/1904.01941) algorithm. For recognition they built a [CRNN](https://arxiv.org/abs/1507.05717) model. For our case, we used the two pretrained model for Arabic language. To deploy the models we used the [Streamlit](https://www.streamlit.io/) library.
+This repo contains Arabic OCR App. The APP can be used to extract the Arabic text from the images. This was built based on the [EasyOCR](https://github.com/JaidedAI/EasyOCR) library. EsayOCR built  detection/recognition model to detect and recognize the characters and words. For detection part they used the pretrained model for [CRAFT](https://arxiv.org/abs/1904.01941) algorithm. For recognition they built a [CRNN](https://arxiv.org/abs/1507.05717) model. For our case, we used the two pretrained model for Arabic language. To create the wep app, we used the [Streamlit](https://www.streamlit.io/) library.
 
 ## Installation
 There are many option to run or install the app we will show three of them:
@@ -16,7 +16,6 @@ git clone https://github.com/maidaly/Arabic_OCR.git
 ```bash
 conda create --name arabic_ocr
 ```
-then we need to activate the enviroment.
 ```
 conda activate arabic_ocr
 ```
@@ -24,3 +23,10 @@ conda activate arabic_ocr
 ```bash
 pip install -r requirements.txt
 ```
+4. Run the app
+```bash
+streamlit run app.py
+```
+The command need to run from the folder that contains the repo files. It will generate two links you can go throgh [http://localhost:8501](http://localhost:8501) to run the app on the local host.
+### 3. Install via docker
+
