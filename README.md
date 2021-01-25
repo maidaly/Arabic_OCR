@@ -28,5 +28,18 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 The command need to run from the folder that contains the repo files. It will generate two links you can go throgh [http://localhost:8501](http://localhost:8501) to run the app on the local host.
-### 3. Install via docker
+### 3. Run via docker container
+In this step we assume that Docker is running on your machine.
+1. Clone the repo silmilar to conda installtion.
+2. Convert directory to the repo location.
+2. Build a docker image.
+```bash
+docker image build -t arabic_ocr:app 
+```
+4. Run the image
+```bash
+docker run -p 8501:8501 arabic_ocr:app 
+```
+After running the image we can go to [http://localhost:8501](http://localhost:8501) to run the app.
 
+```
