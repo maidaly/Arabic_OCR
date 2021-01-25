@@ -42,4 +42,6 @@ docker run -p 8501:8501 arabic_ocr:app
 ```
 After running the image we can go to [http://localhost:8501](http://localhost:8501) to run the app.
 
-```
+## Note
+- The first time running the app it may take time (some moments) to download the pretrained models that used. The time depends on the network speed. Then the pretrained models will be saved to used later.
+- The app is running faster with the machine that contains Nvidia gpus. If the gpu is not availble the app will run but with slow performance. 
