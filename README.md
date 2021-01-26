@@ -8,7 +8,7 @@ There are many option to run or install the app we will show three of them:
 ### 1. Run via Colab
 you can run colab notebook and go through the ngrok link to run the app.<br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JMyzh_fnhTtZnN_hfzMmm3Pr3AON89SK?usp=sharing),<br>
-### Install via conda
+### 2. Install via conda
 In this step we assume that conda is preinstalled on the machine. If conda is not installed you can follow the steps on the that [link](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)<br>
 1. At first we need to clone the repo to the local machine.
 ```bash
