@@ -7,6 +7,7 @@ This repo contains Arabic OCR App. The APP can be used to extract the Arabic tex
 There are many option to run or install the app we will show three of them:
 ### 1. Run via Colab
 you can run colab notebook and go through the ngrok link to run the app.<br>
+**Note:** Sometimes the generated links from ngrok in the colab notebook not working in this case we will not be able to run the app from colab notebook. So, if we need to test it we can install it via conda or docker. <br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JMyzh_fnhTtZnN_hfzMmm3Pr3AON89SK?usp=sharing),<br>
 ### 2. Install via conda
 In this step we assume that conda is preinstalled on the machine. If conda is not installed you can follow the steps on the that [link](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)<br>
