@@ -3,6 +3,9 @@
 <br>
 This repo contains Arabic OCR App. The APP can be used to extract the Arabic text from the images. This was built based on the [EasyOCR](https://github.com/JaidedAI/EasyOCR) library. EsayOCR built  detection/recognition model to detect and recognize the characters and words. For detection part they used the pretrained model for [CRAFT](https://arxiv.org/abs/1904.01941) algorithm. For recognition they built a [CRNN](https://arxiv.org/abs/1507.05717) model. For our case, we used the two pretrained model for Arabic language. To create the wep app, we used the [Streamlit](https://www.streamlit.io/) library.
 
+## App 
+The app deployed by Streamlit share. But the streamlit share dose not provide gpu at the backend only cpu. The app can run on cpu but with slow performance. So, the text extraction process can take from 2 to 3 minutes on cpu, extracting text from the same image with gpu in backend can lead to a huge improvement in the performance and the process can take 13 sec at average. So, we need to take it into consideration when trying it.<br>
+You can try the app on the streamlit sharing cloud on this link [Arabic OCR](https://share.streamlit.io/maidaly/arabic_ocr/main/app.py)
 ## Installation
 There are many option to run or install the app we will show three of them:
 ### 1. Run via Colab
