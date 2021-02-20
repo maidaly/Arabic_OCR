@@ -1,4 +1,4 @@
 easyocr
-opencv-python
+opencv-python-headless
 numpy
 streamlit
