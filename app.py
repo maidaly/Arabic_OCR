@@ -28,7 +28,7 @@ def main():
                 unsafe_allow_html=True)
     side_bar = st.sidebar
     image_file = side_bar.file_uploader('',type=['png', 'jpg', 'jpeg'])
-    col1, col2 = st.beta_columns(2)
+    col1, col2 = st.columns(2)
     
     if image_file is not None:
         image= get_image(image_file)
